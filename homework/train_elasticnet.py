@@ -6,7 +6,7 @@
 # mejor modelo.
 # (alpha, l1_ratio):
 #    (0.5, 0.5), (0.2, 0.2), (0.1, 0.1), (0.1, 0.05), (0.3, 0.2)
-#
+# .
 
 # importacion de librerias
 import pandas as pd
@@ -24,7 +24,7 @@ x = df.copy()
 x.pop("quality")
 
 # dividir los datos en entrenamiento y testing
-(x_train, x_test, y_train, y_test) = train_test_split(
+x_train, x_test, y_train, y_test = train_test_split(
     x,
     y,
     test_size=0.25,

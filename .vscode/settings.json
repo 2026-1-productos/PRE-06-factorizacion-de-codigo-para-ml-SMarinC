@@ -1,6 +1,10 @@
 {
     "editor.defaultFormatter": "ms-python.black-formatter",
     "notebook.defaultFormatter": "ms-python.black-formatter",
+    "notebook.formatOnSave": true,
+    "notebook.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    },
     "editor.codeActionsOnSave": {
         "source.organizeImports": "always"
     },
